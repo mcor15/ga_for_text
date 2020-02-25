@@ -13,7 +13,7 @@ from operator import itemgetter
 parser = argparse.ArgumentParser()
 parser.add_argument("text", help="the string you want to evolve", type=str)
 parser.add_argument("pop_size", help="size of population of solutions", type=int)
-parser.add_argument("-gen_size", help="the number of generations to run, default: 50", type=int)
+parser.add_argument("-gen_num", help="the number of generations to run, default: 50", type=int)
 args = parser.parse_args()
 
 #<<<<Global Vars>>>> OwO

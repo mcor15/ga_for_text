@@ -1,5 +1,4 @@
 # Simplistic Genetic Algorithm for Text
----
 This is a simplistic [genetic algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) for evolving target text from random solutions in Python 3. The fitness function uses the sum of the absolute “ascii” distances between the answer character and evolving solution. This means that this is a minimization problem, solutions with lower fitnesses are favoured over ones with higher fitnesses. 
 
 ## Usage
